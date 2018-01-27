@@ -14,10 +14,19 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../idx/idx'
+      url: '../map/map'
     })
   },
   onLoad: function () {
+    wx.getLocation({
+      success: res => {
+        this.setData({
+          longitude: res.longitude,
+          latitude: res.latitude
+        })
+      }
+    })
+
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,

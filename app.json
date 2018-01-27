@@ -1,6 +1,9 @@
 {
   "pages":[
+    "pages/find_work/find_work",
+    "pages/map/map",
     "pages/index/index",
+    "pages/idx/idx",
     "pages/logs/logs"
   ],
   "window":{
@@ -8,5 +11,6 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
-  }
+  },
+  "debug": true
 }
