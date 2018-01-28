@@ -1,9 +1,14 @@
 {
   "pages":[
-    "pages/find_work/find_work",
-    "pages/map/map",
+    "pages/component/view/cover-view/cover-view",
+    "pages/component/view/scroll-view/scroll-view",
+    "pages/component/view/movable-area/movable-area",
+    "pages/component/view/swiper/swiper",
+    "pages/component/map/map",
+
+    "pages/demo/find_work/find_work",
+
     "pages/index/index",
-    "pages/idx/idx",
     "pages/logs/logs"
   ],
   "window":{

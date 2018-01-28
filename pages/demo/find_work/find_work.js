@@ -1,5 +1,5 @@
 //logs.js
-const util = require('../../utils/util.js')
+const util = require('../../../utils/util.js')
 
 Page({
   data: {
@@ -39,7 +39,6 @@ Page({
   },
 
   selectCondition: function(e){
-    console.log(this.data.objectArray)
     console.log(e)
 
     var sel_idx = e.target.id.substr(this.data.switch_id_prefix.length) 

@@ -1,4 +1,4 @@
-.log-list {
+/*.log-list {
   display: flex;
   flex-direction: column;
   padding: 40rpx;
@@ -14,3 +14,6 @@
 .switch-cond {
   margin: 20rpx;
 }
+*/
+
+
